@@ -2,6 +2,9 @@
 
 **EstateAgent AI** is a high-performance, autonomous multi-agent swarm system designed to evaluate real estate investment opportunities across global regions in parallel. Built on a custom **Map-Reduce architecture**, it orchestrates a swarm of AI agents to deliver deep-dive, data-driven investment scores, strategic insights, and persistent contextual memory for complex follow-up analysis.
 
+> ### 🔴 Live Demo
+> The project is live and running at **https://zubairzafar480--estateagent-ai-web.modal.run/**
+
 ---
 
 ## 🧠 The Intelligence Engine
@@ -59,7 +62,10 @@ modal setup
 
 ### Usage
 
-**1️⃣ Run Web Demo (Real-Time UI)**
+**1️⃣ Try the Live Deployment**
+The app is already deployed and live here: https://zubairzafar480--estateagent-ai-web.modal.run/
+
+**2️⃣ Run Web Demo Locally (Real-Time UI)**
 Launch the interactive dashboard to watch the agents work, view profit histograms, and see live strategic analysis:
 
 ```bash
@@ -67,7 +73,7 @@ modal serve app.py
 
 ```
 
-**2️⃣ Deploy to Production via Aedify**
+**3️⃣ Deploy to Production via Aedify**
 Deploy the full-stack application to Aedify's AI-optimized infrastructure:
 
 ```bash
@@ -75,7 +81,7 @@ aedify deploy
 
 ```
 
-**3️⃣ Test Follow-up Intelligence**
+**4️⃣ Test Follow-up Intelligence**
 Once deployed, you can ask questions like:
 
 > "Compare the yield of the top 3 regions to the report I ran yesterday."
